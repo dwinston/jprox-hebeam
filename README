@@ -1,0 +1,13 @@
+Simulation.java is the main file. All of the .java files should be well-documented internally.
+
+COLLISION-scraper.py scrapes data from SRIM's "Collision Details" output file and formats it for input to the simulation.
+
+sim_HSQ12nm.Si is an example input file. Note that the number of ions used in the SRIM simulation must be input manually, as must be the instantaneous electronic stopping power at the ion landing energy. Read "Simulation.java" for identification of each element necessary in the input file and on the necessary order of these elements.
+
+sim_get-species-densities.py is to more conveniently obtain, given the overall density of the layer, the densities of each species in a layer as required by the input file format.
+
+thesis-appA-sans-full-listing.pdf is from an appendix to my PhD thesis. The thesis in full is freely viewable at http://hdl.handle.net/1721.1/71495).
+
+Donny Winston
+dwinston@alum.mit.edu
+August 30, 2012
